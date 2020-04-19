@@ -1,7 +1,7 @@
 # Modulo02-LaunchBase
  Projetos e desafios do módulo 2
 
-
+## Todos os conceitos
 
 Usando shorthand em css: com somente 1 propriedade será aplicado aos 4 lados. Ex: paddin: 10px.
 Com 2 propriedades temos o primeiro nas verticais e o segundo nas horizontais. Ex: padding: 10px(vertical) 20px(horizontal).
