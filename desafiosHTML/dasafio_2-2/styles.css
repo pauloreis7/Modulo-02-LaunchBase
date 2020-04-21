@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background:#171920; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 248, 248);
+}
+
+header {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid rgba(23, 25, 32, .4);
+}
+
+header img {
+    width: 230px;
+    height: 52px;
+    margin-bottom: -30px;
+    margin-left: 15px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(58, 185, 90, 0.25);
+    font-size: 22px;
+}
+
+.links a:hover {
+    color: #3db95c;
+    transition: color 250ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 5px solid white;
+
+    margin-bottom: 32px;
+}
+
+#wrapper img:hover {
+    border: 6px solid #37d65f;
+}
+
+#wrapper h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+
+#wrapper h2 {
+    font-size: 32px;
+    opacity: .8;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+#wrapper p {
+    max-width: 500px;
+    margin: 28px auto;
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#tecnologies {
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 800px;
+    height: 260px;
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
+}
+#tecnologies img {
+    opacity: .5;
+
+    width: 230px;
+    height: 230px;
+
+    margin: 15px 50px;
+    
+    display: inline-block;
+
+}
+
+#tecContent {
+    position: absolute;
+    top: 740px;
+    left: 600px;
+    text-align: center;
+}
+
+#tecContent h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+    max-width: 440px;
+    display: inline-flex;
+
+    line-height: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#tecContent h2 {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#tecContent li {
+    display: block;
+    font-size: 20px;
+    max-height: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#tecContent ul {
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+#footer-links {
+    margin: 50px auto;
+
+}
+
+#footer-links a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.411);
+    padding: 5px;
+}
