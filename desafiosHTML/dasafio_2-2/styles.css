@@ -35,11 +35,16 @@ header img {
     font-weight: bold;
     color: rgba(58, 185, 90, 0.25);
     font-size: 22px;
+
+    padding: 5px;
 }
 
 .links a:hover {
     color: #3db95c;
-    transition: color 250ms;
+    border-bottom: 2px solid #25a846d8;
+
+    transition: all 250ms;
+
 }
 
 #wrapper {
@@ -89,60 +94,51 @@ header img {
     margin: auto;
     width: 800px;
     height: 260px;
-    border-radius: 20px;
+    border-radius: 40px;
 
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
+    display: flex;
 
 }
 #tecnologies img {
     opacity: .5;
 
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 260px;
 
-    margin: 15px 50px;
-    
-    display: inline-block;
-
+    margin: 0 50px;
 }
 
-#tecContent {
-    position: absolute;
-    top: 740px;
-    left: 600px;
-    text-align: center;
-}
-
-#tecContent h1 {
+.container h1 {
     font-size: 24px;
     font-weight: bold;
 
-    max-width: 440px;
-    display: inline-flex;
+    max-width: 530px;
 
     line-height: 34px;
     margin-bottom: 10px;
     text-align: center;
 }
-#tecContent h2 {
-    display: block;
-    margin-bottom: 15px;
+.container h2 {
+    margin-bottom: 5px;
+    margin-left: 30px;
     font-size: 22px;
     line-height: 32px;
+
+    color: #2dbd51d5;
 }
 
-#tecContent li {
-    display: block;
+.container li {
     font-size: 20px;
     max-height: 30px;
     text-align: left;
     line-height: 30px;
 }
 
-#tecContent ul {
+.container ul {
     margin-bottom: 5px;
-    display: inline-block;
-
+    margin-left: 70px;
 }
 
 #footer-links {
@@ -151,6 +147,11 @@ header img {
 }
 
 #footer-links a {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.411);
+    border-bottom: 2px solid rgba(63, 187, 94, 0.363);
     padding: 5px;
+}
+
+#footer-links a:hover {
+    border-bottom: 3px solid #25a846d8;
+    transition: 250ms;
 }
