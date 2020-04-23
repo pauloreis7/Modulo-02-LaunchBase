@@ -61,4 +61,28 @@ Fixed: Diz que o conteúdo ficará fixado em tela.
 
 Absolute: Refere-se a uma posição absoluta em quaquer lugar da tela somente passando os valores de top, botton, right, left, sem depender de nenhum pai, é muito mais fácil de alinhar com ele, porém compromete a responsividade, logo usar somente estratégicamente em que não comprometerá a responsividade da página
 
-Relativa: Significa uma posição relativa ao seu pai, dependendo, relativa do container pai, sempre ficará dentro do conteiner pai
+Relative: Significa uma posição relativa ao seu pai, dependendo, relativa do container pai, sempre ficará dentro do conteiner pai
+
+## DOOM/ document
+
+A doom é extremamente importante para conseguirmos manipular os elementos, objetos do site por meio do JS.
+A doom é todos os elementos, objetos do HTML.
+
+O document serve para manipular todos os elementos html. Diz respeito ou documento com um todo.
+
+### QuerySelector/QuerySelectorAll
+
+Seleciona qualquer elemento basedo na classe, id ou no próprio nome da tag. Muito útil para selecionar elementos em HTML.
+O QuerySelectorAll funciona da mesma form que o QuerySelector, porém ao invéz de selecionar somente um elemento de determinada quase ou tag, ele selecionará todos os elementos dessa.
+
+### addEventListener
+
+Função que houve algum evento como clique, digitação, etc e a partir desse evento aciona outra função que irá fazer algo que está programado para fazer. Muito útil para detectar algum evento do usuário com clique, digitação, etc e a partir disso fazer algo com abrir ou fechar um arquivo.
+
+### classList 
+
+É basicamente uma lista de classe. Ao adicionar ela a algum objeto do html ela pega todas as classes que aquele objeto tem e daí pode-se manipular tais classes com adcionar ou remover uma classe.
+
+### getAttribute
+
+Tem a função de pegar qualquer atributo de um elemento seja ele id, clas, etc. Muito parecido com o QuerySelector, mas ao invéz de pegar o elemento em sí pega algum atributo de determinado elemento elemento.

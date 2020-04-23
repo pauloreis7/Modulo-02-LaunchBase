@@ -96,14 +96,17 @@ header {
 .cards {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 30px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    padding: 32px;
 }
 
 .card {
     background-color: var(--color-rocket);
+    cursor: pointer;
 }
 
 .card_image img {
@@ -122,9 +125,14 @@ header {
 .card_price {
     background-color: var(--color-rocket);
     filter: brightness(90%);
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 20px;
     text-align: center;
+    width: 50px;
+}
+
+#links-footer {
+    margin-bottom: 30px;
 }
 
             /*MODAL*/
@@ -161,6 +169,16 @@ header {
     right: 8px;
 
     cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+
+    position: absolute;
+
+    top: 7%;
+    
 }
 
             /*Modal active*/
