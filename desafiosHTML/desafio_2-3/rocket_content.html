@@ -6,12 +6,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="/desafiosHTML/desafio_2-1/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
         
 
         <title>About Rocketseat</title>
 
         <link rel="stylesheet" href="styles.css" />
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     </head>
 
@@ -33,6 +36,8 @@
 
         </header>
 
+        <div id="wall">
+
         <div id="courses">
 
             <h1>Courses</h1>
@@ -42,81 +47,122 @@
         <section id="cards">
             
 
-            <article class="card">
+            <article class="card change_borderst" id="starter">
                 
-                <div class="card_title">
+                    <div class="card_title">
 
-                    <h1 id="title_starter">Starter</h1>
+                        <h1 id="title_starter">Starter</h1>
 
-                </div>
+                    </div>
 
-                <div class="card_image">
+                    <div class="card_image">
 
-                    <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Starter Logo" />
+                        <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Starter Logo" />
 
-                </div>
+                    </div>
 
-                <div class="card_info">
+                    <div class="card_info">
 
-                    <p class="card_mod">5 modules</p>
+                        <p class="card_desc"> <strong id="strong_star">Become a desired programmer</strong> on the market with these free courses</p>
 
-                    <p class="card_price">Free</p>
+                        <div class="card_grid">
 
-                </div>
+                            <p class="card_mod">5 modules</p>
+
+                            <p class="card_price">Free</p>
+
+                        </div>
+
+            </div>
 
 
             </article>
 
-            <article class="card">
+            <article class="card change_borderla" id="launchbase">
                 
-                <div class="card_title">
+                    <div class="card_title">
 
-                    <h1 id="title_launch">LaunchBase</h1>
+                        <h1 id="title_launch">LaunchBase</h1>
 
-                </div>
+                    </div>
 
-                <div class="card_image">
+                    <div class="card_image">
 
-                    <img id="image_launch" src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="Launch Base Logo" />
+                        <img id="image_launch" src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="Launch Base Logo" />
 
-                </div>
+                    </div>
 
-                <div class="card_info">
+                    <div class="card_info">
 
-                    <p class="card_mod">7 modules</p>
+                        <p class="card_desc"> <strong id="strong_launch">Master programming from scratch</strong> and have access to the best opportunities in the market</p>
 
-                    <p class="card_price">Paid out</p>
+                        <div class="card_grid">
 
-                </div>
+                            <p class="card_mod">7 modules</p>
+
+                            <p class="card_price">Paid out</p>
+
+                        </div>
+
+            </div>
 
 
             </article>
 
-            <article class="card">
+            <article class="card change_bordergo" id="gostack">
                 
-                <div class="card_title">
+                    <div class="card_title">
 
-                    <h1 id="title_stack">GoStack</h1>
+                        <h1 id="title_stack">GoStack</h1>
 
-                </div>
+                    </div>
 
-                <div class="card_image">
+                    <div class="card_image">
 
-                    <img id="image_go" src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="GoStack Logo" />
+                        <img id="image_go" src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="GoStack Logo" />
 
-                </div>
+                    </div>
 
-                <div class="card_info">
+                    <div class="card_info">
 
-                    <p class="card_mod">15 modules</p>
+                        <p class="card_desc"> <strong id="strong_stack">Immersive training</strong> in the most modern web and mobile development technologies</p>
 
-                    <p class="card_price">Paid out</p>
+                        <div class="card_grid">
 
-                </div>
+                            <p class="card_mod">15 modules</p>
 
+                            <p class="card_price">Paid out</p>
+
+                        </div>
+                    </div>
 
             </article>
 
+        </section>
+
+        <section class="full_modal">
+
+            <article class="modal">
+
+                <a class="close_modal">
+                    
+                    <i class="material-icons">close</i>
+
+                </a>
+
+                <a class="expand_modal">
+
+                    <i class="material-icons">aspect_ratio</i>
+
+                </a>
+
+                <div class="modal_content">
+
+                    <iframe src="https://rocketseat.com.br/starter" frameborder="0"></iframe>
+
+                </div>
+
+            </article>
 
         </section>
 
@@ -127,6 +173,8 @@
             <a href="http://pt-br.facebook.com/rocketseat/" target="_blank" >Facebook</a>
 
         </footer>
+
+        <script src="scripts.js"></script>
 
     </body>
 
