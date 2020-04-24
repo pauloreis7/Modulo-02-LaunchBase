@@ -363,6 +363,8 @@ header img {
     background-color: rgb(255, 255, 255);
 }
 
+            /*Close content*/
+
 .close_modal {
     color: black;
     cursor: pointer;
@@ -403,16 +405,38 @@ header img {
     transition: 250ms;
 }
 
-iframe {
+.modal iframe {
     position: absolute;
     
-    width: 94%;
-    height: 90%;
+    width: 95%;
+    height: 100%;
 
-    top: 5%;
+    top: 0;
 }
 
 .full_modal.active {
     opacity: 1;
     visibility: visible;
+}
+
+/*Expand Modal*/
+
+.full_modal .modal.maximized {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    
+
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+}
+
+.full_modal .modal.maximized iframe{
+    position: fixed;
+    margin: 0 0;
+
+    width: 97%;
+    height: 100%;
 }
